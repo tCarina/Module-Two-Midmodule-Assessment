@@ -10,20 +10,19 @@
     <script src="./index.js" defer></script>
   </head>
   <body>
-    <section>
+    
       <h1>Dice Roller</h1>
       <form id = "dice-form">
-        Number Of Dice: <input type="number" id="dice-length"/>
+        Number Of Dice: <input type="number" id="dice-length" min="1"/>
         <button type="submit">Roll The Dice!</button>
       </form>
-    </section>
-    <section>
+    <div>
       <p id="dice-para"></p>
       <p id="sum-para">Sum =</p>
-    </section>
-    <section>
+    </div>
+    <div>
       <h2>History</h2>
       <ul id="dice-history"></ul>
-    </section>
+    </div>
   </body>
 </html>
